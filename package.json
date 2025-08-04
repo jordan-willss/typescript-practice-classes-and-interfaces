@@ -4,7 +4,8 @@
   "main": "main.ts",
   "scripts": {
     "car": "tsx src/car.ts",
-    "animal": "tsx src/animal.ts"
+    "animal": "tsx src/animal.ts",
+    "weather": "tsx src/weather.ts"
   },
   "devDependencies": {
     "tsx": "^4.20.3",
