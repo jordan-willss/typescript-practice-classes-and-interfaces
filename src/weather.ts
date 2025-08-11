@@ -25,7 +25,9 @@ weather.getTheWeather().then((response) => {
 
     // myWeatherClass.isItNearSea();
 
-    myWeatherClass.getSunriseDateTime();
+    // myWeatherClass.getSunriseDateTime();
+
+    myWeatherClass.getSunsetTime();
 });
 
 // Current API response:

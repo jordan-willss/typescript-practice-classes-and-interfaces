@@ -64,4 +64,9 @@ export default class WeatherResponseClass implements WeatherResponse {
         const dateTime = new Date(this.sys.sunrise * 1000);
         console.log(dateTime);
     }
+
+    getSunsetTime(){
+        const dateTime1 = new Date(this.sys.sunset * 1000);
+        console.log(dateTime1);
+    }
 }

@@ -12,66 +12,66 @@
  * 3. Interact between the classes, for example: Create an "attack" function, and then passing an instance of another animal as the parameter means that we can change values in that other instance, such as its "health"
  */
 
-interface AnimalInterface{
-    species: string;
-    country_of_origin: string;
-    type: string;
-    isAnimalPredator2(): boolean;
-    isAnimalAbleToSwim(): boolean;
-    isAnimalAbleToFly(): boolean;
-    move(): void;
-    eat(): void;
-    communicate(): void;
-}
+// interface AnimalInterface{
+//     species: string;
+//     country_of_origin: string;
+//     type: string;
+//     isAnimalPredator2(): boolean;
+//     isAnimalAbleToSwim(): boolean;
+//     isAnimalAbleToFly(): boolean;
+//     move(): void;
+//     eat(): void;
+//     communicate(): void;
+// }
  
-class Animal{
-    species: string;
-    country_of_origin: string;
-    type: string;
-    isPredator: boolean = true;
+// class Animal{
+//     species: string;
+//     country_of_origin: string;
+//     type: string;
+//     isPredator: boolean = true;
  
-    constructor(species: string, coumtry_of_origin: string, type: string){
-        this.species=species;
-        this.country_of_origin=coumtry_of_origin;
-        this.type=type;
-    }
+//     constructor(species: string, coumtry_of_origin: string, type: string){
+//         this.species=species;
+//         this.country_of_origin=coumtry_of_origin;
+//         this.type=type;
+//     }
  
-    // passive check
+//     // passive check
  
-    isAnimalPredator(): boolean{
-        if (this.isPredator)
-            return true
-        else return false
-    }
+//     isAnimalPredator(): boolean{
+//         if (this.isPredator)
+//             return true
+//         else return false
+//     }
  
-    isAnimalAbleToSwim(){
+//     isAnimalAbleToSwim(){
  
-    }
-    isAnimalAbleToFly(){
+//     }
+//     isAnimalAbleToFly(){
  
-    }
+//     }
  
-    move(){}
-    eat(){
+//     move(){}
+//     eat(){
  
-        if (this.isAnimalPredator()){
+//         if (this.isAnimalPredator()){
  
-             console.log("Animal is predator")
+//              console.log("Animal is predator")
  
-        } else
-            console.log("test test")
+//         } else
+//             console.log("test test")
  
-    }
-    communicate(){}
-}
+//     }
+//     communicate(){}
+// }
  
-const a = new Animal('peacock','ireland','bird');
+// const a = new Animal('peacock','ireland','bird');
  
-console.log(a)
+// console.log(a)
  
-const eat = a.eat();
-console.log(eat)
+// const eat = a.eat();
+// console.log(eat)
  
 
  
-let newobject: AnimalInterface;
+// let newobject: AnimalInterface;
